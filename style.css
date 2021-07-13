@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  padding: 50px 0px;
+  background-color: grey;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.padd {
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 300px;
+  width: 18%;
+  background-color: chocolate;
+  margin: 10px 0px 10px 0px;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  height: 300px;
+  width: 100%;
+  background: url("https://previews.123rf.com/images/penog123/penog1231102/penog123110200003/8820247-playing-card-back-over-white-square-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.opened {
+  display: none;
+}
